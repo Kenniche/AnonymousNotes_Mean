@@ -1,0 +1,7 @@
+<div class="allnotes">
+  {{ notes2 }}
+  <div *ngFor="let note of notes | orderby : createdAt" class="notedetail">
+    <h5>Noted on: {{ note.createdAt | date:'medium' }}</h5>
+    <h4 class="notecontent">{{ note.note_content }}</h4>
+  </div>
+</div>

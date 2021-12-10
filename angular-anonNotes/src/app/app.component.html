@@ -1,0 +1,10 @@
+<div class="main">
+    <h1>Anonymous Notes</h1>
+    
+    <app-create-note (aTaskEventEmitter)="dataFromChild($event)"></app-create-note>
+    <app-show-notes [notes]='notes'></app-show-notes>
+    
+    <router-outlet></router-outlet>
+</div>
+
+

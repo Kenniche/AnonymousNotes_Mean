@@ -1,0 +1,8 @@
+.main {
+    height: 800px;
+    width: 1200px;
+    background-color: #DDDDDD;
+    border: 2px solid black;
+    box-sizing: border-box;
+    padding: 10px;
+}
